@@ -1,0 +1,45 @@
+path resources/
+
+m cubemap.png skyCube.obj skybox 0.0,0.0,0.0|0.0,0.0,0.0|25069.0,25069.0,25069.0
+
+m em005_MM_01.png ship_light.obj ui 80.0,0.0,3.0|0.0,0.0,0.0|1.0,1.0,0.5
+m btf.png siegeRam.obj ui 0.0,0.0,-18.051|0.0,0.0,0.0|0.9,0.4,1.2
+m BLACKSMITH_TEX.jpg the_noble_craftsman.obj ui -40.0,35.0,-25.0|155.0,7.0,69.420|5.0,5.0,5.0
+
+m skin_lancelot.png OUISAMERE.obj ui -0.0,4.0,1.0|150.0,7.0,69.420|7.0,7.0,7.0
+m em005_BM_01.png Barioth.obj ui -0.0,4.0,1.0|0.0,1.0,0.0|7.0,7.0,7.0
+
+m spnza_bricks_a_diff.tga sponza.obj shader -0.0,-1.9,-3.7|0.0,1.57,0.0|0.001,0.001,0.001
+m em005_BM_01.png sponza.obj shader -2.3,-1.9,-3.7|0.0,1.57,0.0|0.001,0.001,0.001
+m em005_BM_01.png sponza.obj ui 2.3,-1.9,-3.7|0.0,1.57,0.0|0.001,0.001,0.001
+
+m button_v1.png sponza.obj shader -0.0,-1.9,0.0|0.0,1.57,0.0|0.001,0.001,0.001
+m skyboxRedNebula.jpg sponza.obj shader -2.3,-1.9,0.0|0.0,1.57,0.0|0.001,0.001,0.001
+m skyboxRedNebula.jpg sponza.obj ui 2.3,-1.9,0.0|0.0,1.57,0.0|0.001,0.001,0.001
+
+m spnza_bricks_a_diff.tga sponza.obj ui -0.0,-1.9,3.7|0.0,1.57,0.0|0.001,0.001,0.001
+m Milkyway_Skybox_Preview.jpg sponza.obj shader -2.3,-1.9,3.7|0.0,1.57,0.0|0.001,0.001,0.001
+m Milkyway_Skybox_Preview.jpg sponza.obj ui 2.3,-1.9,3.7|0.0,1.57,0.0|0.001,0.001,0.001
+
+# need to find a less heavy object here
+# m BLACKSMITH_TEX.jpg bugatti.obj ui 500.0,0.0,3.0|0.0,0.0,0.0|1.0,1.0,0.5
+
+p transparent.png ball.obj skybox 1000.0,1000.0,0.0|0.0,0.0,0.0|1.0,1.0,1.0
+
+e red.png skyball.obj shader -10.0,0.0,2.0|0.0,0.0,0.0|1.0,1.0,1.0
+e skin_robot.png enemy.obj shader -20.0,0.0,2.0|0.0,0.0,0.0|1.0,1.0,1.0
+
+w blank.png OUISAMERE.obj shader 0.5,-0.35,-0.5|0.0,3.0,0.0|10.0,10.0,10.0
+
+pl gras.jpg cube.obj shader 0.0,-3.0,0.0|0.0,0.0,0.0|200.0,1.0,80.0
+
+pl wall.png cube.obj shader 30.0,-1.0,0.0|0.0,0.0,0.0|5.0,1.5,2.5
+pl crate.png cube.obj shader 40.0,1.0,0.0|0.0,0.0,0.0|5.0,1.5,2.5
+pl crate.png cube.obj shader 50.0,3.0,0.0|0.0,0.0,0.0|5.0,1.5,2.5
+pl crate.png cube.obj shader 60.0,5.0,0.0|0.0,0.0,0.1|5.0,1.5,2.5
+pl crate.png cube.obj shader 0.0,-3.0,90.0|0.0,0.0,0.0|5.0,1.5,15.0
+
+c free 0.0,0.75,0.0
+
+l 0 on 10.8,3.0,0.2 0.1,0.1,0.1|1.0,1.0,1.0|1.0,0.0,0.0 1.0,0.0,0.00001
+l 1 on 60.8,10.0,1.2 0.1,0.1,0.1|1.0,1.0,1.0|1.0,0.0,0.0 1.0,0.0,0.00001

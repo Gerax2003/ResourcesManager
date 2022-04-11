@@ -1,0 +1,23 @@
+﻿  App.cpp
+  Camera.cpp
+  Debug.cpp
+  Interface.cpp
+  main.cpp
+  Maths.cpp
+  Mesh.cpp
+  ResourcesManager.cpp
+  Scene.cpp
+  Shader.cpp
+  Texture.cpp
+  Enemy.cpp
+  Entity.cpp
+  Explosion.cpp
+  Gunsmoke.cpp
+  Particles.cpp
+  Platform.cpp
+  Player.cpp
+  Weapon.cpp
+  Génération de code en cours...
+  glad.c
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Engine.vcxproj -> C:\Users\a.gerbeaud\code\ResourceManager\Engine\x64\Debug\Engine.exe

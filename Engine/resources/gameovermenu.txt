@@ -1,0 +1,15 @@
+menu
+path resources/
+
+m skybox_game_over_v1.jpg quad.obj skybox 0.0,0.0,-0.1|0.0,0.0,0.0|40.0,20.0,20.0
+# m testAlpha.png quad.obj ui 0.0,0.0,3.0|0.0,0.0,0.0|4.0,4.0,4.0
+# m blank.png quad.obj ui 0.0,0.0,3.001|0.0,0.0,0.0|4.0,4.0,4.0
+
+p transparent.png blank.obj skybox 0.0,0.0,0.0|0.0,0.0,0.0|0.0,0.0,0.0
+
+w transparent.png blank.obj skybox 0.0,0.0,0.0|0.0,0.0,0.0|0.0,0.0,0.0
+
+c ortho lock 0.0,0.0,0.0
+
+l 0 on 10.8,3.0,0.2 0.1,0.1,0.1|1.0,1.0,1.0|1.0,0.0,0.0 1.0,0.0,0.00001
+l 1 on 60.8,10.0,1.2 0.1,0.1,0.1|1.0,1.0,1.0|1.0,0.0,0.0 1.0,0.0,0.00001

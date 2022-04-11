@@ -1,0 +1,38 @@
+﻿  App.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\App.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'STB/stb_image.h' : No such file or directory
+  Camera.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Camera.cpp(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Maths.hpp' : No such file or directory
+  Debug.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Debug.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Mesh.hpp' : No such file or directory
+  Interface.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Interface.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Interface.hpp' : No such file or directory
+  main.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\main.cpp(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glad/glad.h' : No such file or directory
+  Maths.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Maths.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Maths.hpp' : No such file or directory
+  Mesh.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Mesh.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glad/glad.h' : No such file or directory
+  ResourcesManager.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\ResourcesManager.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/ResourcesManager.hpp' : No such file or directory
+  Scene.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Scene.cpp(7,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glad/glad.h' : No such file or directory
+  Shader.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Shader.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'glad/glad.h' : No such file or directory
+  Texture.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Core\Texture.cpp(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'STB/stb_image.h' : No such file or directory
+  Enemy.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Enemy.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Game/Enemy.hpp' : No such file or directory
+  Entity.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Entity.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Game/Entity.hpp' : No such file or directory
+  Explosion.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Explosion.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Maths.hpp' : No such file or directory
+  Gunsmoke.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Gunsmoke.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Maths.hpp' : No such file or directory
+  Particles.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Particles.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Core/Maths.hpp' : No such file or directory
+  Platform.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Platform.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Game/Platform.hpp' : No such file or directory
+  Player.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Player.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'GLFW/glfw3.h' : No such file or directory
+  Weapon.cpp
+C:\Users\a.gerbeaud\code\ResourceManager\Engine\src\Game\Weapon.cpp(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Game/Weapon.hpp' : No such file or directory

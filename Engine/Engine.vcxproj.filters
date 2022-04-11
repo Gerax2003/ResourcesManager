@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Core\App.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Camera.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Debug.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\glad.c">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\main.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Mesh.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\ResourcesManager.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Scene.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Shader.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Texture.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entity.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Player.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Platform.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Enemy.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Particles.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Weapon.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Explosion.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Gunsmoke.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Explosion.cpp" />
+    <ClCompile Include="src\Core\Interface.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shader.vert">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\shader.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\skybox.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\skybox.vert">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\ui.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\ui.vert">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{a1afe6f9-d983-429c-b979-452bf47aad7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{c028dc2f-70e4-45bc-b8d5-d5020909a327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{16ae6f92-3f8b-4daa-8ad5-4e85ee218801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Game">
+      <UniqueIdentifier>{fc8d2899-826f-4b62-8bba-cdb4464280c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{6ddac47f-7796-4615-a1cc-13e7705d15c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\STB">
+      <UniqueIdentifier>{df4ebcbf-c271-4811-a93e-fd8a571fbe2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\KHR">
+      <UniqueIdentifier>{9a4c357b-71c0-49dc-82d5-c7a638f79de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\glad">
+      <UniqueIdentifier>{2f964fef-292a-4263-b98e-c8565ccc87ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\GLFW">
+      <UniqueIdentifier>{bde52c3e-da64-4535-9510-82f95a8863cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\ImGui">
+      <UniqueIdentifier>{c8daf124-9c1f-4ce2-b67c-b82d540908dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c7a0b2fa-46d2-4e9c-9d4d-e336c0d00b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{35a53108-ce5a-482c-895e-aa84850a3163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{7966419c-7f54-4292-8e30-0f35f511da2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\Camera.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Constants.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Debug.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Light.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Mesh.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Model.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Physics.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Resource.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Shader.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Texture.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Entity.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Player.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Platform.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Enemy.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GLFW\glfw3.h">
+      <Filter>header\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GLFW\glfw3native.h">
+      <Filter>header\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="header\glad\glad.h">
+      <Filter>header\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="header\KHR\khrplatform.h">
+      <Filter>header\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="header\STB\stb_image.h">
+      <Filter>header\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imconfig.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imgui.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imgui_impl_glfw.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imgui_impl_opengl3.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imgui_internal.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ImGui\imstb_textedit.h">
+      <Filter>header\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Particles.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Weapon.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Explosion.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Gunsmoke.hpp">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game\Explosion.hpp" />
+    <ClInclude Include="include\Core\Interface.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\App.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Scene.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\ResourcesManager.hpp">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\mainmenu.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\gameovermenu.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\winmenu.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\scene.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\level.txt">
+      <Filter>resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
