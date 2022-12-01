@@ -16,7 +16,7 @@
 - Functional timer for multithreaded loading
 - Task queue emptying itself when needed  
 
-## <h2 id="WIP"> En cours </h2>
+## <h2 id="WIP"> Work in progress </h2>
 ---
 - Fix random framerate drop on first scene loading (multithreaded)  
 - Benchmark mode  
